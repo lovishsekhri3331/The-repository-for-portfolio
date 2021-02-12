@@ -1,0 +1,896 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* ironman SVG  */
+.cls-bg{
+  fill: #fff;
+  z-index: -999;
+}
+.cls-1 {
+    fill: #6A0C0B;
+    z-index: -998;
+  }
+
+  .cls-2 {
+    fill: #FBCA03;
+    z-index: -998;
+  }
+
+  .cls-3 {
+    fill: #5d1313;
+  }
+
+  .cls-4 {
+    fill: #681717;
+  }
+
+  .cls-5 {
+    fill: #e8995d;
+  }
+
+  .cls-6 {
+    fill: #e39d63;
+  }
+
+  .cls-7 {
+    fill: #854e34;
+  }
+
+  .cls-8 {
+    fill: #c8875b;
+  }
+
+  .cls-9 {
+    fill: #c28261;
+  }
+
+  .cls-10 {
+    fill: #c77b4b;
+  }
+
+  .cls-11 {
+    fill: #a15a3b;
+  }
+
+  .cls-12 {
+    fill: #a76341;
+  }
+
+  .cls-13 {
+    fill: #68210c;
+  }
+
+  .cls-14 {
+    fill: none;
+  }
+
+  .cls-15 {
+    fill: #d07d50;
+  }
+
+  .cls-16 {
+    fill: #db9163;
+  }
+
+  .cls-17 {
+    fill: #a85a42;
+  }
+
+  .cls-18 {
+    fill: #f4ecde;
+  }
+
+  .cls-19 {
+    fill: #6b4333;
+  }
+
+  .cls-20 {
+    fill: #ba7348;
+  }
+
+  .cls-21 {
+    fill: #472c1e;
+  }
+
+  .cls-22 {
+    fill: #2b251e;
+  }
+
+  .cls-23 {
+    fill: #140100;
+  }
+
+  .cls-24 {
+    fill: #fcb17a;
+  }
+
+  .cls-25 {
+    fill: #ffb069;
+  }
+
+  .cls-26 {
+    fill: #fec6a7;
+  }
+
+  .cls-27 {
+    fill: #180702;
+  }
+
+  .cls-28 {
+    fill: #773115;
+  }
+
+  .cls-29 {
+    fill: #d1824e;
+  }
+
+  .cls-30 {
+    fill: #c67642;
+  }
+
+  .cls-31 {
+    fill: #fdcc9d;
+  }
+
+  .cls-32 {
+    fill: #472c19;
+  }
+
+  .cls-33 {
+    fill: #b62a2a;
+  }
+
+  .cls-34 {
+    fill: #cc7a56;
+  }
+
+  .cls-35 {
+    fill: #ffd5a0;
+  }
+
+  .cls-36 {
+    fill: #783e2c;
+  }
+
+  .cls-37 {
+    fill: #25140a;
+  }
+
+  .cls-38 {
+    fill: #e4a676;
+  }
+
+  .cls-39 {
+    fill: #532818;
+  }
+
+  .cls-40 {
+    fill: #321d10;
+  }
+
+  .cls-41 {
+    fill: #c57a49;
+  }
+
+  .cls-42 {
+    fill: #652822;
+  }
+
+  .cls-43 {
+    fill: #d77a59;
+  }
+
+  .cls-44 {
+    fill: #ea966c;
+  }
+
+  .cls-45 {
+    fill: #c57754;
+  }
+
+  .cls-46 {
+    fill: #bd7f51;
+  }
+
+  .cls-47 {
+    fill: #6e4751;
+  }
+
+  .cls-48 {
+    fill: #061006;
+  }
+
+  .cls-49 {
+    fill: #39090b;
+  }
+
+  .cls-50 {
+    fill: #8e8586;
+  }
+
+  .cls-51 {
+    fill: #5f0410;
+  }
+
+  .cls-52 {
+    fill: #791b16;
+  }
+
+  .cls-53 {
+    fill: #3c0c0a;
+  }
+
+  .cls-54 {
+    fill: #6e131b;
+  }
+
+  .cls-55 {
+    fill: #861f38;
+  }
+
+  .cls-56 {
+    fill: #423d3f;
+  }
+
+  .cls-57 {
+    fill: #170905;
+  }
+
+  .cls-58 {
+    fill: #1e1414;
+  }
+
+  .cls-59 {
+    fill: #20191b;
+  }
+
+  .cls-60 {
+    fill: #231621;
+  }
+
+  .cls-61 {
+    fill: #470d16;
+  }
+
+  .cls-62 {
+    fill: #49121a;
+  }
+
+  .cls-63 {
+    fill: #3b0c10;
+  }
+
+  .cls-64 {
+    fill: #050100;
+  }
+
+  .cls-65 {
+    fill: #1e1818;
+  }
+
+  .cls-66 {
+    fill: #4e1214;
+  }
+
+  .cls-67 {
+    fill: #3f0507;
+  }
+
+  .cls-68 {
+    fill: #921415;
+  }
+
+  .cls-69 {
+    fill: #721c27;
+  }
+
+  .cls-70 {
+    fill: #180f12;
+  }
+
+  .cls-71 {
+    fill: #030003;
+  }
+
+  .cls-72 {
+    fill: #280a05;
+  }
+
+  .cls-73 {
+    fill: #701417;
+  }
+
+  .cls-74 {
+    fill: #7f1515;
+  }
+
+  .cls-75 {
+    fill: #390407;
+  }
+
+  .cls-76 {
+    fill: #6c1d1e;
+  }
+
+  .cls-77 {
+    fill: #f5fef9;
+  }
+
+  .cls-78 {
+    fill: #935347;
+  }
+
+  .cls-79 {
+    fill: #643f3e;
+  }
+
+  .cls-80 {
+    fill: #513628;
+  }
+
+  .cls-81 {
+    fill: #0a0001;
+  }
+
+  .cls-82 {
+    fill: #1e0e15;
+  }
+
+  .cls-83 {
+    fill: #512d34;
+  }
+
+  .cls-84 {
+    fill: #897178;
+  }
+
+  .cls-85 {
+    fill: #6e1313;
+  }
+
+  .cls-86 {
+    fill: #571215;
+  }
+
+  .cls-87 {
+    fill: #400115;
+  }
+
+  .cls-88 {
+    fill: #930a1d;
+  }
+
+  .cls-89 {
+    fill: #6e1118;
+  }
+
+  .cls-90 {
+    fill: #8a1b1b;
+  }
+
+  .cls-91 {
+    fill: #992b43;
+  }
+
+  .cls-92 {
+    fill: #7e191e;
+  }
+
+  .cls-93 {
+    fill: #a52f34;
+  }
+
+  .cls-94 {
+    fill: #3a111a;
+  }
+
+  .cls-95 {
+    fill: #370000;
+  }
+
+  .cls-96 {
+    fill: #fff;
+  }
+
+  .cls-97 {
+    fill: #67191f;
+  }
+
+  .cls-98 {
+    fill: #3a1818;
+  }
+
+  .cls-99 {
+    fill: #882c46;
+  }
+
+  .cls-100 {
+    fill: #fff2dc;
+  }
+
+  .cls-101 {
+    fill: #b47e7c;
+  }
+
+  .cls-102 {
+    fill: #3d050f;
+  }
+
+  .cls-103 {
+    fill: #280000;
+  }
+
+  .cls-104 {
+    fill: #9f294a;
+  }
+
+  .cls-105 {
+    fill: #511;
+  }
+
+  .cls-106 {
+    fill: #391b18;
+  }
+
+  .cls-107 {
+    fill: #621e20;
+  }
+
+  .cls-108 {
+    fill: #4f1211;
+  }
+
+  .cls-109 {
+    fill: #786a7c;
+  }
+
+  .cls-110 {
+    fill: #731812;
+  }
+
+  .cls-111 {
+    fill: #4f0e10;
+  }
+
+  .cls-112 {
+    fill: #944845;
+  }
+
+  .cls-113 {
+    fill: #802c32;
+  }
+
+  .cls-114 {
+    fill: #8b3241;
+  }
+
+  .cls-115 {
+    fill: #6a0800;
+  }
+
+  .cls-116 {
+    fill: #e34e41;
+  }
+
+  .cls-117 {
+    fill: #9d3148;
+  }
+
+  .cls-118 {
+    fill: #461d1d;
+  }
+
+  .cls-119 {
+    fill: #370e10;
+  }
+
+  .cls-120 {
+    fill: #8d392d;
+  }
+
+  .cls-121 {
+    fill: #330708;
+  }
+
+  .cls-122 {
+    fill: #561311;
+  }
+
+  .cls-123 {
+    fill: #771613;
+  }
+
+  .cls-124 {
+    fill: #460000;
+  }
+
+  .cls-125 {
+    fill: #d55c4c;
+  }
+
+  .cls-126 {
+    fill: #2f0000;
+  }
+
+  .cls-127 {
+    fill: #ffecf7;
+  }
+
+  .cls-128 {
+    fill: #1c010a;
+  }
+
+  .cls-129 {
+    fill: #731d21;
+  }
+
+  .cls-130 {
+    fill: #380705;
+  }
+
+  .cls-131 {
+    fill: #d86e77;
+  }
+
+  .cls-132 {
+    fill: #600711;
+  }
+
+  .cls-133 {
+    fill: #6b050b;
+  }
+
+  .cls-134 {
+    fill: #480d0d;
+  }
+
+  .cls-135 {
+    fill: #0d0000;
+  }
+
+  .cls-136 {
+    fill: #3e0818;
+  }
+
+  .cls-137 {
+    fill: #270006;
+  }
+
+  .cls-138 {
+    fill: #0c0100;
+  }
+
+  .cls-139 {
+    fill: #988d91;
+  }
+
+  .cls-140 {
+    fill: #160000;
+  }
+
+  .cls-141 {
+    fill: #1c0e10;
+  }
+
+  .cls-142 {
+    fill: #fff9fb;
+  }
+
+  .cls-143 {
+    fill: #0e0002;
+  }
+
+  .cls-144 {
+    fill: #9f989a;
+  }
+
+  .cls-145 {
+    fill: #151317;
+  }
+
+  .cls-146 {
+    fill: #1d0507;
+  }
+
+  .cls-147 {
+    fill: #5f5859;
+  }
+
+  .cls-148 {
+    fill: #140807;
+  }
+
+  .cls-149 {
+    fill: #000203;
+  }
+
+  .cls-150 {
+    fill: #010103;
+  }
+
+  .cls-151 {
+    fill: #b17936;
+  }
+
+  .cls-152 {
+    fill: #4c2e21;
+  }
+
+  .cls-153 {
+    fill: #2b1b0a;
+  }
+
+  .cls-154 {
+    fill: #a0755d;
+  }
+
+  .cls-155 {
+    fill: #be9c8e;
+  }
+
+  .cls-156 {
+    fill: #b79e92;
+  }
+
+  .cls-157 {
+    fill: #d0a679;
+  }
+
+  .cls-158 {
+    fill: #925f2e;
+  }
+
+  .cls-159 {
+    fill: #8b4e24;
+  }
+
+  .cls-160 {
+    fill: #794c21;
+  }
+
+  .cls-161 {
+    fill: #ecccb7;
+  }
+
+  .cls-162 {
+    fill: #f2ceb4;
+  }
+
+  .cls-163 {
+    fill: #dc8b4d;
+  }
+
+  .cls-164 {
+    fill: #3d0e16;
+  }
+
+  .cls-165 {
+    fill: #5a1315;
+  }
+
+  .cls-166 {
+    fill: #330b14;
+  }
+
+  .cls-167 {
+    fill: #601414;
+  }
+
+  .cls-168 {
+    fill: #88746e;
+  }
+
+  .cls-169 {
+    fill: #612b2a;
+  }
+
+  .cls-170 {
+    fill: #7d675f;
+  }
+
+  .cls-171 {
+    fill: #ad7473;
+  }
+
+  .cls-172 {
+    fill: #420011;
+  }
+
+  .cls-173 {
+    fill: #a9686b;
+  }
+
+  .cls-174 {
+    fill: #fffff2;
+  }
+
+  .cls-175 {
+    fill: #851111;
+  }
+
+  .cls-176 {
+    fill: #3f1515;
+  }
+
+  .cls-177 {
+    fill: #402c32;
+  }
+
+  .cls-178 {
+    fill: #2a0a0a;
+  }
+
+  .cls-179 {
+    fill: #220005;
+  }
+
+  .cls-180 {
+    fill: #9e7269;
+  }
+
+  .cls-181 {
+    fill: #845855;
+  }
+
+  .cls-182 {
+    fill: #721012;
+  }
+
+  .cls-183 {
+    fill: #5f0d0f;
+  }
+
+  .cls-184 {
+    fill: #f5f7f8;
+  }
+
+  .cls-185 {
+    fill: #470e17;
+  }
+
+  .cls-186 {
+    fill: #672c33;
+  }
+
+  .cls-187 {
+    fill: #261619;
+  }
+
+  .cls-188 {
+    fill: #2f2f40;
+  }
+
+  .cls-189 {
+    fill: #654245;
+  }
+
+  .cls-190 {
+    fill: #f4d7d9;
+  }
+
+  .cls-191 {
+    fill: #4e2c30;
+  }
+
+  .cls-192 {
+    fill: #712f3e;
+  }
+
+  .cls-193 {
+    fill: #cb9288;
+  }
+
+  .cls-194 {
+    fill: #161c0b;
+  }
+
+  .cls-195 {
+    fill: #815952;
+  }
+
+  .cls-196 {
+    fill: #4d1115;
+  }
+
+  .cls-197 {
+    fill: #b17f84;
+  }
+
+  .cls-198 {
+    fill: #b08788;
+  }
+
+  .cls-199 {
+    fill: #fbfefc;
+  }
+
+  .cls-200 {
+    fill: #360c16;
+  }
+
+  .cls-201 {
+    fill: #482525;
+  }
+
+  .cls-202 {
+    fill: #663534;
+  }
+
+  .cls-203 {
+    fill: #a1fff6;
+  }
+
+  .cls-204 {
+    fill: #d89366;
+  }
+
+  .cls-205 {
+    fill: #cd8f67;
+  }
+
+  .cls-206 {
+    fill: #c18663;
+  }
+
+  .cls-207 {
+    fill: #21000d;
+  }
+
+  .cls-208 {
+    fill: #b52021;
+  }
+
+  .cls-209 {
+    fill: #67474f;
+  }
+
+  .cls-210 {
+    fill: #000b03;
+  }
+
+  .cls-211 {
+    fill: #191516;
+  }
+
+  .cls-212 {
+    fill: #484e58;
+  }
+
+  .cls-213 {
+    fill: #1d1912;
+  }
+
+  .cls-214 {
+    fill: #060b0b;
+  }
+
+  .cls-215 {
+    fill: #ffede4;
+  }
+
+  .cls-216 {
+    fill: #090201;
+  }
+
+  .cls-217 {
+    fill: #390f0e;
+  }
+
+  .cls-218 {
+    fill: #3c2413;
+  }
+
+  .cls-219 {
+    fill: #0a0000;
+  }
+
+  .cls-220 {
+    fill: #1e1011;
+  }
+
+  .cls-221 {
+    fill: #500a0b;
+  }

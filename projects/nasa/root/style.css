@@ -1,0 +1,591 @@
+body {
+    background-position: bottom center;
+    background-size: cover;
+    background-image: url(images/bodybackground.jpg);
+    background-position: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+label {
+    font-size: 26px;
+    display: none;
+	text-align: center;
+}
+
+#toggle {
+    display: none;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    text-decoration: none;
+    color:gray;
+}
+
+/*desktopveiw*/
+@media only screen and (min-width: 992px) {
+    .logobox {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav {
+        width: 100%;
+        display: inline-flex;
+        text-align: center;
+        justify-content: space-around;
+
+    }
+
+    ul {
+        width: 100%;
+        display: inline-flex;
+        justify-content: space-around;
+        font-size: 225%;
+        list-style: none;
+        font-family: 'Brandon Grotesque';
+        src: url(font/Brandon_bld.otf);
+        font-weight: 700;
+        color: #94908D;
+        text-shadow: 8px 6px 8px #000;
+    }
+
+    .featured-background {
+        width: 1130px;
+        height: 397px;
+        margin-left: 100px;
+        display: inline-flex;
+        justify-content: center;
+        background-image: url(images/featured%20Image_.png);
+        background-position: top center;
+        font-family: 'Quicksand';
+        color: #FFF;
+        font-size: 300%;
+        text-shadow: 1px 8px 7px #000;
+
+    }
+
+    .featured-background h1 {
+        padding-top: 10%;
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .section {
+        display: inline-flex;
+        margin: auto 5%;
+        justify-content: space-around;
+        width: 90%;
+    }
+
+    .section1,.section2,.section3 {
+
+        width: 370px;
+        height: 300px;
+        margin: 20px 50px;
+        float: left;
+        font-size: 90%;
+        font-family: 'Quicksand';
+        background-color: none;
+        text-align: center;
+        color: #FFF;  
+        text-shadow: 2px 2px 2px black;
+        line-height: 17px;
+    }
+    .section h1{
+        font-size: 30px;
+        align-content: center;
+        
+    }
+    .section p{
+        text-align: center;
+        padding-left:45px;
+        width:250px;
+        
+    }
+    .section1{
+        font-size: 90%;
+        font-family: 'Quicksand';
+        background-color: none;
+        text-align: center;
+        background-image: url(images/box%201.png);
+        color: #FFF;  
+        text-shadow: 2px 2px 2px black;
+        
+    }
+    .section1:hover{
+        opacity:0.7;
+    }
+    
+    
+    .section2{
+        background-image:url(images/box%202.png);
+    }
+    .section2:hover{
+        opacity:0.7;
+    }
+    .section3{
+        background-image:url(images/box%203.png);
+    }
+    .section3:hover{
+        opacity:0.7;
+    }
+    .btn{
+        border:1.5px solid #4eb8b9;
+        width:100px;
+        border-radius: 20px;
+        color:#4eb8b9;
+        margin-left: 100px;
+        
+    }
+    .btn:hover{
+        cursor: pointer;
+        color:#327879;
+        
+    }
+    
+    .section4, .section5{
+        width: 500px;
+        height: 359px;
+        margin: 10px 80px;
+        float: left;
+        font-size: 90%;
+        font-family: 'Quicksand';
+        background-color: none;
+        text-align: center;
+        color: #FFF;  
+        text-shadow: 2px 2px 2px black;
+        line-height: 15px;
+        
+    }
+    .section4{
+        background-image: url(images/box4.png);
+    }
+    .part2 h1{
+        font-size: 30px;
+        align-content: center;
+        
+    }
+    .part2 p{
+        text-align: center;
+        padding-left:50px;
+        width:450px;
+        
+    }
+    .section4 .btn{
+        margin-left: 200px;
+    }
+    .section5{
+        background-image: url(images/box5.png);
+    }
+    .section5 img{
+        margin:20px;
+    }
+    .advertisment{
+        margin-left:19%;
+    }
+    footer img{
+        margin: auto 40%;
+    }
+    footer p{
+        margin: auto 43%;
+        color: aliceblue;
+        
+    }
+}
+
+@media only screen and (min-width: 601px){
+    .logobox {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav {
+        width: 100%;
+        display: inline-flex;
+        text-align: center;
+        justify-content: space-around;
+
+    }
+
+    ul {
+        width: 100%;
+        display: inline-flex;
+        justify-content: space-around;
+        font-size: 225%;
+        list-style: none;
+        font-family: 'Brandon Grotesque';
+        src: url(font/Brandon_bld.otf);
+        font-weight: 700;
+        color: #94908D;
+        text-shadow: 8px 6px 8px #000;
+    }
+
+    .featured-background {
+        top:0;
+        left:0;
+        margin-left: 10%;
+        width: 80%;
+        height: 397px;
+        display: inline-flex;
+        justify-content: center;
+        background-image: url(images/featured%20Image_.png);
+        background-position: top center;
+        font-family: 'Quicksand';
+        color: #FFF;
+        font-size: 300%;
+        text-shadow: 1px 8px 7px #000;
+
+    }
+
+    .featured-background h1 {
+        padding-top: 10%;
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .section {
+        display: inline-flex;
+        margin: auto 5%;
+        justify-content: space-around;
+        width: 90%;
+    }
+
+    .section1,.section2,.section3 {
+
+        width: 370px;
+        height: 300px;
+        margin: 20px 50px;
+        float: left;
+        font-size: 90%;
+        font-family: 'Quicksand';
+        background-color: none;
+        text-align: center;
+        color: #FFF;  
+        text-shadow: 2px 2px 2px black;
+        line-height: 17px;
+    }
+    .section h1{
+        font-size: 30px;
+        align-content: center;
+        
+    }
+    .section p{
+        text-align: center;
+        padding-left:45px;
+        width:250px;
+        
+    }
+    .section1{
+        font-size: 90%;
+        font-family: 'Quicksand';
+        background-color: none;
+        text-align: center;
+        background-image: url(images/box%201.png);
+        color: #FFF;  
+        text-shadow: 2px 2px 2px black;
+        
+    }
+    .section1:hover{
+        opacity:0.7;
+        cursor:pointer;
+    }
+    
+    
+    .section2{
+        background-image:url(images/box%202.png);
+    }
+    .section2:hover{
+        opacity:0.7;
+        cursor:pointer;
+    }
+    .section3{
+        background-image:url(images/box%203.png);
+    }
+    .section3:hover{
+        opacity:0.7;
+        cursor:pointer;
+    }
+    .btn{
+        border:1.5px solid #4eb8b9;
+        width:100px;
+        border-radius: 20px;
+        color:#4eb8b9;
+        margin-left: 100px;
+        
+    }
+    .btn:hover{
+        cursor: pointer;
+        color:#327879;
+        
+    }
+    
+    .section4, .section5{
+        width: 500px;
+        height: 359px;
+        margin: 10px 80px;
+        float: left;
+        font-size: 90%;
+        font-family: 'Quicksand';
+        background-color: none;
+        text-align: center;
+        color: #FFF;  
+        text-shadow: 2px 2px 2px black;
+        line-height: 15px;
+        
+    }
+    .section4:hover, .section5:hover{
+        cursor: pointer;
+    }
+    .section4{
+        background-image: url(images/box4.png);
+    }
+    .part2 h1{
+        font-size: 30px;
+        align-content: center;
+        
+    }
+    .part2 p{
+        text-align: center;
+        padding-left:50px;
+        width:450px;
+        
+    }
+    .section4 .btn{
+        margin-left: 200px;
+    }
+    .section5{
+        background-image: url(images/box5.png);
+    }
+    .section5 img{
+        margin:20px;
+    }
+    .advertisment{
+        margin-left:19%;
+    }
+    .advertisment:hover{
+        cursor: pointer;
+    }
+    footer img{
+        margin: auto 40%;
+    }
+    footer p{
+        margin: auto 43%;
+        color: aliceblue;
+        
+    }
+    
+}
+/*mobile */
+@media only screen and (max-width: 600px){
+     nav {
+         
+        width: 100%;
+        display: inline-flex;
+        text-align: center;
+        justify-content: space-around;
+        
+    }
+
+    
+    label {
+        display: block;
+        cursor: pointer;
+    }
+     ul {
+        width: 100%;
+        display: none;
+        justify-content: space-around;
+        font-size: 225%;
+        list-style: none;
+        font-family: 'Brandon Grotesque';
+        src: url(font/Brandon_bld.otf);
+        font-weight: 700;
+        color: #94908D;
+        text-shadow: 8px 6px 8px #000;
+    }
+    #toggle{
+        margin-left: 45%;
+    }
+	#toggle:checked + ul {
+		display: flex;
+	}
+	
+	#toggle:checked + ul a {
+        display: block;
+        position: sticky; 
+        font-size:50%;
+    }
+
+
+   
+
+    .featured-background {
+        top:0;
+        left:0;
+        margin-left: 15%;
+        width: 80%;
+        height: 397px;
+        display: inline-flex;
+        justify-content: center;
+        background-image: url(images/featured%20Image_.png);
+        background-position: top center;
+        font-family: 'Quicksand';
+        color: #FFF;
+        font-size: 200%;
+        text-shadow: 1px 8px 7px #000;
+
+    }
+
+    .featured-background h1 {
+        padding-top: 10%;
+        font-size: 90%;
+        text-align: center;
+    }
+    .featured-background p {
+        padding-top: 10%;
+        font-size: 80%;
+        text-align: center;
+    }
+
+    .section {
+        display: block;
+        margin: auto 3%;
+        justify-content: space-around;
+        width: 90%;
+    }
+
+    .section1,.section2,.section3 {
+
+        width: 370px;
+        height: 300px;
+        margin: 20px 50px;
+        float: left;
+        font-size: 90%;
+        font-family: 'Quicksand';
+        background-color: none;
+        text-align: center;
+        color: #FFF;  
+        text-shadow: 2px 2px 2px black;
+        line-height: 17px;
+    }
+    .section h1{
+        font-size: 30px;
+        align-content: center;
+        
+    }
+    .section p{
+        text-align: center;
+        padding-left:60px;
+        width:320px;
+        
+    }
+    .section1{
+        font-size: 90%;
+        font-family: 'Quicksand';
+        background-color: none;
+        text-align: center;
+        background-image: url(images/box%201.png);
+        color: #FFF;  
+        text-shadow: 2px 2px 2px black;
+        
+    }
+    .section1:hover{
+        opacity:0.7;
+        cursor:pointer;
+    }
+    
+    
+    .section2{
+        background-image:url(images/box%202.png);
+    }
+    .section2:hover{
+        opacity:0.7;
+        cursor:pointer;
+    }
+    .section3{
+        background-image:url(images/box%203.png);
+    }
+    .section3:hover{
+        opacity:0.7;
+        cursor:pointer;
+    }
+    .btn{
+        border:1.5px solid #4eb8b9;
+        width:130px;
+        border-radius: 20px;
+        color:#4eb8b9;
+        margin-left: 120px;
+        
+    }
+    .btn:hover{
+        cursor: pointer;
+        color:#327879;
+        
+    }
+    
+    .section4, .section5{
+        width: 500px;
+        height: 359px;
+        margin: 10px 0px;
+        float: left;
+        font-size: 90%;
+        font-family: 'Quicksand';
+        background-color: none;
+        text-align: center;
+        color: #FFF;  
+        text-shadow: 2px 2px 2px black;
+        line-height: 15px;
+        
+    }
+    .section4:hover, .section5:hover{
+        cursor: pointer;
+    }
+    .section4{
+        background-image: url(images/box4.png);
+    }
+    .part2 h1{
+        font-size: 30px;
+        align-content: center;
+        
+    }
+    .part2 p{
+        text-align: center;
+        padding-left:50px;
+        width:450px;
+        
+    }
+    .section4 .btn{
+        margin-left: 200px;
+    }
+    .section5{
+        background-image: url(images/box5.png);
+    }
+    .section5 img{
+        margin:20px;
+    }
+    .advertisment{
+        margin-left:0%;
+    }
+    .advertisment:hover{
+        cursor: pointer;
+    }
+    footer img{
+        margin: auto 22%;
+    }
+    footer p{
+        margin: auto 43%;
+        color: aliceblue;
+        
+    }
+    
+}

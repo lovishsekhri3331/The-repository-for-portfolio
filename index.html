@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lovish Sekhri" />
+    <meta name="Portfolio" content="Portfolio" />
+    <!-- link to google fonts used -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet"> 
+    <!-- link to external css -->
+    <link rel="stylesheet" href="styleIntro.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <title>Lovish Portfolio website</title>
+</head>
+<body>
+    
+    
+
+
+    <!-- this is the header section -->
+    <header id="header">
+        <div class="logo">
+            <img src="img/logo.png" alt="" srcset=""/>
+        </div>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_items"><a href="#home" class="nav_link">Home</a></li>
+                <li class="nav_items"><a href="#about" class="nav_link">About me</a></li>
+                <li class="nav_items"><a href="#work" class="nav_link">My work</a></li>
+                <li class="nav_items"><a href="#contact" class="nav_link">Contact me</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+
+        <!-- Introduction to the website -->
+        <section class="home" id="home">
+            <div class="animatedIntro" id="#home">
+                <object data="img/intro.svg" type="image/svg+xml" id="obj"></object>
+                <div id="displayText" class="displayText">
+                    <h1>
+                        <span class="box"></span>
+                        <span class="hi">Hi, I'm</span>
+                        <span class="text"></span>
+                        <span class="underscore type" id="type">_</span>
+                    </h1>
+                </div>
+                <div id="button" ><a href="#about">Welcome</a></div>
+            </div> 
+        </section> 
+
+
+
+        <!-- About me -->
+        <section class="about" id="about">
+            <text>About Me</text>
+            <div class="contentAbout">
+                <div class="aboutLinks" >
+                    <p>My Name is Lovish,I'm 20 year old Front end developer based in toronto</p>
+                    <p>I describe myself as a passionate developer who loves to code and design web pages.</p>
+                    <p>
+                        Aside from my Job,I like to Learn and discover more about my field.That helps me grow more as a
+                        developer.
+                    </p>
+                    <p>
+                        In my free time you can find me reading different books,at the gym or learning new science stuff of the youtube.
+                    </p>
+                    <a href="LovishSekhri_Resume (1).docx"><div class="aboutButton">Resumé</div></a>
+                    <div class="socialIcons">
+                    <a href="https://www.linkedin.com/in/lovish-sekhri-5100541b8/" class="fa fa-linkedin"></a>
+                    <a href="https://www.instagram.com/lovish_designs/" class="fa fa-instagram"></a>
+                    <a href="https://www.facebook.com/lovish.sekhri/" class="fa fa-facebook"></a>
+                    </div>
+
+                </div>
+            </div>
+            
+        </section>
+        <!-- My Work -->
+        <section class="work" id="work">
+            <div class="workText-wrapper">
+                <text class="">My work</text>
+                <div class="myWork-wrapper">
+                    <div class="myWork work1">
+                        <div class = 'work_button'>
+                            <a href="projects/COVID-19 Web infographic /index.html">
+                                <button class="explore">Visit<span class="icon-right"></span><span class="icon-right after"></span> </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="myWork work2">
+                        <a href="projects/Restaurant Mobile Application/ROOT/index.html">
+                            <button class="explore">Visit<span class="icon-right"></span><span class="icon-right after"></span> </button>
+                        </a>
+                    </div>
+                    <div class="myWork work3">
+                        <a href="projects/dynamic_site_MadMovies/index.html">
+                            <button class="explore">Under Development<span class="icon-right"></span><span class="icon-right after"></span> </button>
+                        </a></div>
+                </div>
+
+                <div class="myWork-wrapper">
+                    <div class="myWork work4">
+                        <a href="projects/easy_groceries/index.html">
+                            <button class="explore">Under Development<span class="icon-right"></span><span class="icon-right after"></span> </button>
+                        </a>
+                    </div>
+
+                    <div class="myWork work5">
+                        <a href="projects/signout/index.html">
+                            <button class="explore">Under Development<span class="icon-right"></span><span class="icon-right after"></span> </button>
+                        </a>
+                    </div>
+                    <div class="myWork work6">Project 6</div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- This is the contact section -->
+        <section class="section_contact" id="contact">
+            <text>Let's have a chat</text>
+            <form class="contact-form" action="mailto:lovishsekhri3331@gmail.com" method="post">
+                <input type="text" class="contact-form-text" placeholder="Your name">
+                <input type="email" class="contact-form-text" placeholder="Your email">
+                <textarea class="contact-form-text" placeholder="Your message"></textarea>
+                <a href = "mailto:abc@example.com?subject = Feedback&body = Message"><input type="submit" class="contact-form-btn" value="Send" ></a>
+            </form>
+
+        </section>
+
+        <!--footer section -->
+        <footer>
+            <div class="footerSection">
+                Copyright © 2021 Lovish Sekhri 
+            </div>
+
+        </footer>
+
+    <!-- GSAP library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+    <!-- text plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/TextPlugin.min.js"></script>
+    <!-- ease trigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/EaselPlugin.min.js"></script>
+    <!-- Animated intro -->
+    <script src="scriptIntro.js"></script>
+    <!-- <script src="script/index.js"></script> -->
+</body>
+</html>
