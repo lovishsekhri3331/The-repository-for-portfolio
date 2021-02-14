@@ -195,22 +195,29 @@ $(".hamburger").click(function(){
     if($(this).attr("src") == "img/close2hamburger.gif"){
         // this changes gif to X
         $(this).attr("src","img/hamburger2close.gif");
-
+        gsap.fromTo("#menu",{
+            x:-100,
+            opacity:0,
+            duration:0.5,
+            ease:"sine.out"
+        },{
+            x:0,
+            opacity:1,
+            duration:0.5,
+            ease:"sine.out"
+        })
         // display the hamburgerMenu 
         $("#menu").show(); 
 
         //animate the hamburger section
-        gsap.from("#menu",{
-            x:-100,
-            duration:0.5,
-            ease:"sine.out"
-        })
+
     }else{
         // display the hamburgerMenu 
         $(this).attr("src","img/close2hamburger.gif");
         //animate the hamburger section
         gsap.to("#menu",{
                     x:-100,
+                    opacity:0,
                     duration:0.5,
                     ease:"sine.out",
                     onComplete: function(){
@@ -220,8 +227,32 @@ $(".hamburger").click(function(){
     }
 })
 
-$("#backtosplash").click(function(){
-
+$("#Hamburger_hearth").click(function(){
+    $("main").hide();
+    $(".hamburger").attr("src","img/close2hamburger.gif");
+    gsap.to("#menu",{
+        x:-100,
+        duration:0.5,
+        opacity:0,
+        ease:"sine.out",
+        onComplete: loadRest,
+        onCompleteParams:["#rest1", "#0f6b37"]
+    })
+})
+$("#Hamburger_vines").click(function(){
+    $("main").hide();
+    $(".hamburger").attr("src","img/close2hamburger.gif");
+    gsap.to("#menu",{
+        x:-100,
+        duration:0.5,
+        opacity:0,
+        ease:"sine.out",
+        onComplete: loadRest,
+        onCompleteParams:["#rest2", "#0f6b37"]
+    })
+})
+$("#Hamburger_crispy").click(function(){
+    $("main").hide();
     $(".hamburger").attr("src","img/close2hamburger.gif");
     gsap.to("#menu",{
         x:-100,
@@ -231,8 +262,6 @@ $("#backtosplash").click(function(){
         onComplete: loadRest,
         onCompleteParams:["#rest3", "#0f6b37"]
     })
-
-
 })
 
 
