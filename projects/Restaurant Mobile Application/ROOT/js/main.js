@@ -187,6 +187,57 @@ function loadRest(restID, highlightColour) {
 
 }
 
+
+// hamburger tweens on
+$(".hamburger").click(function(){
+    // alert('click works');
+// checks if the hamburger icon is hamburger
+    if($(this).attr("src") == "img/close2hamburger.gif"){
+        // this changes gif to X
+        $(this).attr("src","img/hamburger2close.gif");
+
+        // display the hamburgerMenu 
+        $("#menu").show(); 
+
+        //animate the hamburger section
+        gsap.from("#menu",{
+            x:-100,
+            duration:0.5,
+            ease:"sine.out"
+        })
+    }else{
+        // display the hamburgerMenu 
+        $(this).attr("src","img/close2hamburger.gif");
+        //animate the hamburger section
+        gsap.to("#menu",{
+                    x:-100,
+                    duration:0.5,
+                    ease:"sine.out",
+                    onComplete: function(){
+                        $("#menu").hide();
+                    }
+        })
+    }
+})
+
+$("#backtosplash").click(function(){
+
+    $(".hamburger").attr("src","img/close2hamburger.gif");
+    gsap.to("#menu",{
+        x:-100,
+        duration:0.5,
+        opacity:0,
+        ease:"sine.out",
+        onComplete: loadRest,
+        onCompleteParams:["#rest3", "#0f6b37"]
+    })
+
+
+})
+
+
+
+
 // REUSABLE FUNCTIONS/CLICKS /////////////////////////////////////
 
 // function for loading internal restaurant section
