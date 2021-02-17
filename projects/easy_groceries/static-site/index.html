@@ -15,8 +15,9 @@
     <header class="header">
         <div class="grid-container">
             <div class="grid-x grid-padding-x">
-                <div class="cell large-5 logo"><img src="./assets/img/logo.svg" class="img-responsive"></div>
+                <div class="cell large-5"><img src="./assets/img/logo.svg" class="img-responsive logo"></div>
                 <div class="cell large-5 search">
+                    <input type="search" class="categoryBar item" placeholder="Click Item">
                     <input class="searchBar" type="search" placeholder="Search....."/>
                 </div>
                 <div class="cell large-2 nav"><img src="./assets/img/shopping-cart.svg" class="img-responsive"></div>
@@ -55,7 +56,7 @@
 
                 <!-- Item 1  -->
                 <div class="cell large-3">
-                    <div class="callout related_item item">
+                    <div class="callout related_item">
                         <img src="./assets/img/1.png" alt="">
                         <strong>Fruit juice</strong>
                         <p>Vitamin C fortified. Vitamin C antioxidant. Contains 10% juice. 100% natural flavor. No preservatives</p>
@@ -79,7 +80,7 @@
 
                 <!-- Item 2 -->
                 <div class="cell large-3">
-                    <div class="callout related_item item">
+                    <div class="callout related_item">
                         <img src="./assets/img/2.png" alt="">
                         <strong>Mega Shower</strong>
                         <p>Vitamin C fortified. Vitamin C antioxidant. Contains 10% juice. 100% natural flavor. No preservatives</p>
@@ -103,7 +104,7 @@
 
                 <!-- Item 3 -->
                 <div class="cell large-3">
-                    <div class="callout related_item item">
+                    <div class="callout related_item">
                         <img src="./assets/img/3.png" alt="">
                         <strong>Potato Chips</strong>
                         <p>Vitamin C fortified. Vitamin C antioxidant. Contains 10% juice. 100% natural flavor. No preservatives</p>
@@ -128,7 +129,7 @@
 
                 <!-- Item 4 -->
                 <div class="cell large-3">
-                    <div class="callout related_item item"><img src="./assets/img/4.png" alt="">
+                    <div class="callout related_item"><img src="./assets/img/4.png" alt="">
                         <strong>Thirst Quencher</strong>
                         <p>Vitamin C fortified. Vitamin C antioxidant. Contains 10% juice. 100% natural flavor. No preservatives</p>
                         <strong>$5.99/each</strong>
@@ -387,41 +388,63 @@
 
         <article class="information hideAll">
             <div class="grid-x gridpadding-x">
-                <div class="cell large-12 related_information">
-                    Information
-                </div>
+                <div class="tabinator">
+                    <h2>Information</h2>
+                        <input type="radio" id="tab1" name="tabs" class="tabs" checked>
+                        <label for="tab1">Sign IN </label>
+                        <input type="radio" id="tab2" name="tabs" class="tabs">
+                        <label for="tab2">Sign Up</label>
+                        <input type="radio" id="tab3" name="tabs" class="tabs">
+                        <label for="tab3">Payment</label>
+                    
+                    <div id="box1">
+                        <h4>Sign IN</h4>
+                        <div class="sigin-form" method="post">
+                            <input type="email" class="contact-form-text" placeholder="Your email">
+                            <input type="password" name="" id="">
+                            <button class="paymentButton">CheckOut</button>
+                        </div>
+                    </div>
 
-                <button class="paymentButton">Payment</button>
+                    <div id="box2">
+                        <div class="sigun-form" method="post">
+                            <input type="email" class="contact-form-text" placeholder="Your email">
+                            <input type="text" name="" id="" placeholder="First Name">
+                            <input type="text" name="" id="" placeholder="Last Name">
+                            <input type="password" name="" id="" placeholder="Password">
+                            <input type="password" name="" id="" placeholder="Confirm Password">
+                            <button class="paymentButton">CheckOut</button>
+                        </div>
+                    </div>
+                    <div id="box3">
+                        
+                        <div class="payment-form" method="post">
+                            <strong>Email:</strong>
+                            <input type="text" class="contact-form-text" placeholder="First Name">
+                            <input type="text" class="contact-form-text" placeholder="Second Name">
+                            <strong>Billing details:</strong>
+                            <input type="text" name="" id="" placeholder="CARD NUMBER">
+                            <input type="text" name="" id="" placeholder="CVV">
+                            <input type="text" name="" id="" placeholder="Street Adress">
+                            <input type="text" name="" id="" placeholder="Postal code">
+                            <button class="paymentButton">CheckOut</button>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </article>
 
-        <article class="payment hideAll">
+        <article class="checkout hideAll">
             <div class="grid-x gridpadding-x">
-                <div class="cell large-12 related_information">
-                    payment
+                <div class="cell large-12 related_information" style="text-align: center;">
+                    Thankyou,Your order is being processed
                 </div>
-
-                <button class="confirmButton">confirm</button>
+                
             </div>
         </article>
-        <article class="confirm hideAll">
-            <div class="grid-x gridpadding-x">
-                <div class="cell large-12 related_information">
-                    Confirm
-                </div>
-
-                <button class="checkoutButton">Checkout</button>
-            </div>
-        </article>
-        <article class=" hideAll">
-            <div class="grid-x gridpadding-x">
-                <div class="cell large-12 related_information">
-                    Thanks your Order has been received
-                </div>
-
-                <button class="checkoutButton">Checkout</button>
-            </div>
-        </article>
+        
+        
 
 
     </main>
@@ -430,33 +453,33 @@
         <div class="cell large-3 footerLinks1">
             <strong>About Us</strong>
             <ul>
-                <li>Link1</li>
-                <li>Link1</li>
-                <li>Link1</li>
+                <li>Locations</li>
+                <li>Find US</li>
+                <li>information</li>
             </ul>
         </div>
         <div class="cell large-3 footerLinks2">
             <strong>Contact Us</strong>
             <ul>
-                <li>Link1</li>
-                <li>Link1</li>
-                <li>Link1</li>
+                <li>General</li>
+                <li>Investment</li>
+                <li>media</li>
             </ul>
         </div>
         <div class="cell large-3 footerLinks3">
             <strong>Company</strong>
             <ul>
-                <li>Link1</li>
-                <li>Link1</li>
-                <li>Link1</li>
+                <li>Easy Groceries</li>
+                <li>Sell with Easy Groceries</li>
+                <li>buy wholesale</li>
             </ul>
         </div>
         <div class="cell large-3 footerLinks4">
             <strong>Get involved</strong>
             <ul>
-                <li>Link1</li>
-                <li>Link1</li>
-                <li>Link1</li>
+                <li>Donate</li>
+                <li>Career</li>
+                <li>Other</li>
             </ul>
         </div>
     
