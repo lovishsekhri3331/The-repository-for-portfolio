@@ -30,7 +30,7 @@ function getSplash() {
                 //console.log(lastName);
                 content += `<div class="cell large-4">
                     <div data-id="${movie_id}" class="callout related_movie movie">
-                    <img src="./uploads/${cover_id}/${cover_name}" alt="${movie_name}">
+                    <img src="https://dca.durhamcollege.ca/~madmovies/uploads2/uploads/${cover_id}/${cover_name}" alt="${movie_name}">
                     <h4>${movie_name}</h4>
                     </div>
                 </div>`;
@@ -85,7 +85,7 @@ function getMovie(id) {
             $(".description_detail").html(description);
             $(".movie_length").html(run_length);
 
-            let src = `<img src="./uploads/${cover_image_id}/${cover_image_name}" alt="${movie_name}">`;
+            let src = `<img src="https://dca.durhamcollege.ca/~madmovies/uploads2/uploads/${cover_image_id}/${cover_image_name}" alt="${movie_name}">`;
             $(".movie_poster").html(src);
 
             let youtube = data.youtube;
@@ -106,7 +106,7 @@ function getMovie(id) {
                 content += `<div>
                                 <div data-id="${people_id}" class="card people" style="height: 100%;">
                                     <div class="card-divider">
-                                        <img src="./uploads/${image_id}/${image_name}" alt="${name}">
+                                        <img src="https://dca.durhamcollege.ca/~madmovies/uploads2/uploads/${image_id}/${image_name}" alt="${name}">
                                     </div>
                                     <div class="card-section">
                                         <h4>${name}</h4>
@@ -239,7 +239,7 @@ $(window).on("load", function () {
 
                         //console.log(lastName);
                         content += `<div class="style_class ${class_name}" data-id="${id}">
-                        <img src="./uploads/${image_id}/${image_name}" alt="${name}"> ${name}
+                        <img src="https://dca.durhamcollege.ca/~madmovies/uploads2/uploads/${image_id}/${image_name}" alt="${name}"> ${name}
                         </div>`;
 
                     });

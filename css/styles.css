@@ -587,6 +587,7 @@ button:hover .icon-right.after:after {
         top:0;
     }
     .logo{
+        display: none;
         width:40%;
         margin: 11px 0px;
     }
@@ -600,7 +601,7 @@ button:hover .icon-right.after:after {
     .nav{
         margin-top:18px;
         float: right;
-        width:59%;
+        width:100%;
         color:#dfc08e;
         transition: transform 250ms cubic-bezier(0.5, 0 ,0.5,1);
 

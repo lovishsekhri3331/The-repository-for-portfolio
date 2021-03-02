@@ -321,6 +321,14 @@ function loadScreen2() {
         duration: duration,
         delay: delay+0.5,
         y:180,
+        opacity:0,
+        ease:"power.out"
+    });
+    gsap.to("#p2e1a", {
+        duration: duration,
+        delay: delay+0.5,
+        y:180,
+        opacity:0,
         ease:"power.out"
     });
     gsap.from("#p2e2", {
